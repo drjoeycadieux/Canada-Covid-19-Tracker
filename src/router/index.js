@@ -13,6 +13,8 @@ import Router from "vue-router";
  * That we want to use as pages.
  */
 import Home from "../views/Home";
+import Dashboard from "../views/admin/Dashboard";
+import Network from "../views/admin/Network";
 
 /**
  * 3)
@@ -31,6 +33,14 @@ const OurRoutes = [
   {
     path: "/",
     component: Home
+  },
+  {
+    path: "/dashboard",
+    component: Dashboard
+  },
+  {
+    path: "/network",
+    component: Network
   }
 ];
 
